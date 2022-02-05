@@ -8,6 +8,7 @@ import Products from "./pages/Products";
 import SingleProduct from "./pages/SingleProduct";
 import NewProduct from "./pages/NewProduct";
 import Login from "./pages/Login";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
