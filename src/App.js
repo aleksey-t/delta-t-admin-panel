@@ -11,7 +11,7 @@ function App() {
         <Link to="/login">Логин</Link>
         <Link to="/new-product">Добавить продукт</Link>
         <Link to="/products">Продукция</Link>
-        <Link to="products/:productId">Отдельный продукт</Link>
+        <Link to="/products/:productId">Отдельный продукт</Link>
       </Nav>
     </div>
   );

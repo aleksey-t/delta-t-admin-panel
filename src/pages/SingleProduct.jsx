@@ -6,7 +6,7 @@ const SingleProduct=({})=>{
     return(
         <div>
             <h1>Отдельный продукт</h1>
-        <Nav defaultActiveKey="/home" className="flex-column">
+            <Nav defaultActiveKey="/home" className="flex-column">
             <Link to="/">На главную</Link>
             <Link to="/login">Логин</Link>
             <Link to="/products">Продукция</Link>
