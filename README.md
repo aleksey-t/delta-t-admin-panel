@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Панель администратора delta-t - frontend
+
+## Сделано на Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
