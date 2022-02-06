@@ -1,23 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Nav } from "react-bootstrap";
+import Sidebar from "../components/Sidebar.jsx";
 
-const SingleProduct=({})=>{
-    return(
+
+const SingleProduct = ({ }) => {
+    return (
         <div>
             <h1>Отдельный продукт</h1>
-            <Nav defaultActiveKey="/home" className="flex-column">
-            <Link to="/">На главную</Link>
-            <Link to="/login">Логин</Link>
-            <Link to="/products">Продукция</Link>
-            <Link to="/new-product">Добавить продукт</Link>
-          </Nav>
-    
-            
+            <Sidebar />
         </div>
-    
+
     )
 }
 
-export default SingleProduct
-
+export default SingleProduct;
