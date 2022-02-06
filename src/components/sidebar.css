@@ -1,20 +1,20 @@
-body{
-    padding: 50px;
+body {
+  padding: 50px;
 }
 
 .navmenu {
-    width: 180px;
-    height: 300px;
-    background-color: rgb(16, 16, 122);
-    padding-left: 10px;
-    border-radius: 5px;
+  width: 180px;
+  height: 300px;
+  background-color: rgb(16, 16, 122);
+  padding-left: 10px;
+  border-radius: 5px;
 }
 
 .navmenu a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .navmenu a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
