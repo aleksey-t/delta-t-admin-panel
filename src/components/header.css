@@ -1,0 +1,45 @@
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid #707070;
+    padding: 0 10px;
+}
+
+.ellipse {
+    width:58px;
+    height: 58px;
+    background: #ffffff;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 10px 72px 20px 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ellipse.ellipse-notification:after {
+    content: " ";
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #0048ff;
+    border: 2px solid #0048ff;
+    z-index: 1;
+    left: 48px;
+    bottom:36px;
+    position: absolute;
+}
+
+.nick-name {
+    margin: 0 98px 0 0;
+}
+
+.send {
+    width:102px;
+    height: 31px;
+}
+

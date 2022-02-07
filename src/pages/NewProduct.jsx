@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Nav } from "react-bootstrap";
 import Sidebar from "../components/Sidebar.jsx";
 
-const NewProduct = ({}) => {
+const NewProduct = () => {
   return (
     <>
       <h1>Добавить продукт</h1>
