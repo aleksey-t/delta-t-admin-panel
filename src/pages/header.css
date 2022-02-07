@@ -1,0 +1,27 @@
+.ellipse {
+    width:58px;
+    height: 58px;
+    background: #ffffff;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 26px 0 0 1450px;
+}
+
+.ellipse:after {
+    content: " ";
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: orange;
+    border: 2px solid orange;
+    z-index: 2;
+    position: absolute;
+}
+
+.mail {
+    width: 24.71px;
+    height: 21.42px;
+    margin: 19px 2px 0 16px;
+}
+
