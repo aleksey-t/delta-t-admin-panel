@@ -1,8 +1,6 @@
-// import "./App.css";
-import { Link } from "react-router-dom";
-import { Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar.jsx";
+import React from 'react';
 
 function App() {
   return (
