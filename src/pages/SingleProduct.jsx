@@ -9,7 +9,7 @@ const SingleProduct = () => {
       <Row>
         <Sidebar />
         <Col>
-          <Header username="dima777"/>
+          <Header username="dima777" />
           <h1>Отдельный продукт</h1>
         </Col>
       </Row>

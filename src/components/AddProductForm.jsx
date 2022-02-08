@@ -9,10 +9,9 @@ const AddProductForm = () => {
         <Form.Label column lg={1}>
           Название:
         </Form.Label>
-          <Col xs={6}>
-
-            <Form.Control type="text" placeholder="Название товара" />
-            </Col>
+        <Col xs={6}>
+          <Form.Control type="text" placeholder="Название товара" />
+        </Col>
       </Row>
       <br />
       <Row>
