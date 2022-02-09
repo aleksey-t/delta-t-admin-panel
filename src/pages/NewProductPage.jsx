@@ -11,8 +11,10 @@ const NewProduct = () => {
         <Sidebar />
         <Col>
           <Header username="dima777" />
-          <h1>Отдельный продукт</h1>
-          <AddProductForm />
+          <main>
+            <h1>Отдельный продукт</h1>
+            <AddProductForm />
+          </main>
         </Col>
       </Row>
     </Container>

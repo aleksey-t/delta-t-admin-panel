@@ -2,19 +2,30 @@ body {
   padding: 50px;
 }
 
-.navmenu {
-  width: 180px;
-  height: 300px;
-  background-color: rgb(16, 16, 122);
-  padding-left: 10px;
+.sidebar {
+  width: 300px;
+  padding: 1rem;
   border-radius: 5px;
+  box-shadow: #d0d0d0 2px 2px 5px 1px;
 }
 
-.navmenu a {
-  color: white;
+.sidebar a {
+  font-weight: 600;
   text-decoration: none;
+  color: #333;
+  font-size: 1.4rem;
 }
 
-.navmenu a:hover {
+.sidebar .icon{
+  width: 40px;
+}
+
+.sidebar a:hover {
   text-decoration: underline;
+}
+
+.sidebar-link{
+display: flex;
+  align-items: center;
+  margin: 1rem 0;
 }
