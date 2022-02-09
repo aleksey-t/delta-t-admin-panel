@@ -15,6 +15,7 @@ const Sidebar = () => {
         <SidebarLink icon={faPlus} linkText="Добавить" to="/new-product" />
 
         <Link to="/products/:productId">Отдельный продукт</Link>
+        <Link to="/new-category">Добавление категории</Link>
       </Nav>
     </Col>
   );
