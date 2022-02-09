@@ -12,7 +12,7 @@ const NewProduct = () => {
         <Col>
           <Header username="dima777" />
           <main>
-            <h1>Отдельный продукт</h1>
+            <h1>Добавление товара</h1>
             <AddProductForm />
           </main>
         </Col>

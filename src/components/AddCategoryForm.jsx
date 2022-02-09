@@ -20,7 +20,7 @@ const AddCategoryForm = () => {
             </Col>
             <Col xs={3}>
                 <div id="input-category">/generated-category-link</div>
-                <Button variant="primary" type="submit" className="mt-2">
+                <Button variant="secondary" type="submit" className="mt-2">
                     Изменить
                 </Button>
             </Col>
