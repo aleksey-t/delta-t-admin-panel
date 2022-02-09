@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Products from "./pages/Products";
 import SingleProduct from "./pages/SingleProduct";
-import NewProduct from "./pages/NewProduct";
+import NewProduct from "./pages/NewProductPage";
 import Login from "./pages/Login";
 import "bootstrap/dist/css/bootstrap.min.css";
 
