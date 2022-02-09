@@ -9,6 +9,7 @@ import SingleProduct from "./pages/SingleProduct";
 import NewProduct from "./pages/NewProductPage";
 import Login from "./pages/Login";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AddCategoryPage from "./pages/AddCategoryPage";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="login" element={<Login />} />
         <Route path="products/:productId" element={<SingleProduct />} />
         <Route path="new-product" element={<NewProduct />} />
+          <Route path="new-category" element={<AddCategoryPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
