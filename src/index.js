@@ -11,7 +11,7 @@ import Login from "./pages/Login";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AddCategoryPage from "./pages/AddCategoryPage";
 import CategoryListPage from "./pages/CategoryListPage";
-
+import CommonInfoPage from "./pages/CommonInfoPage";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,7 +24,7 @@ ReactDOM.render(
         <Route path="new-product" element={<NewProduct />} />
           <Route path="new-category" element={<AddCategoryPage />} />
         <Route path="category-list" element={<CategoryListPage />} />
-
+        <Route path="common-information" element={<CommonInfoPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
