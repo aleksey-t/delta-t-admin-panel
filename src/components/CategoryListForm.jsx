@@ -1,46 +1,38 @@
 import React from "react";
-import { Button, Col, Form, Row } from "react-bootstrap";
+import { Button, Col, Form } from "react-bootstrap";
+import "./header.css";
 
 const CategoryListForm = () => {
   return (
-    <Form>
+    <Form className="main">
       <Form.Group>
-        <Col xs={1}>
-          <Form.Label column>Название....!</Form.Label>
+        <Col xs={4} className="mt-4">
+          <Form.Label column>Название:</Form.Label>
+          <Form.Control type="text" placeholder="Электрические" />
+        </Col>
+        <Col xs={4} className="mt-3">
+          <Form.Label column>Тип:</Form.Label>
+          <Form.Check type="radio" id="choose" label="Категория" />
+          <Form.Check type="radio" id="choose" label="Подкатегория" />
+        </Col>
+      </Form.Group>
+
+      <Form.Group>
+        <Col xs={1} className="mt-2">
+          <Form.Label column>Ссылка:</Form.Label>
         </Col>
         <Col xs={6}>
-          <Form.Control type="text" placeholder="Название товара" />
+          <div id="input-category">/generated-category-link</div>
+          <Button variant="secondary" type="submit" className="mt-2">
+            Изменить
+          </Button>
+          <span>Осторожно: ссылки в поисковиках поломаются</span>
         </Col>
       </Form.Group>
 
-
       <Form.Group>
-          текст
-        <Form.Check type="radio" id="choose" label="категория" />
-      </Form.Group>
-
-
-      <Form.Group>
-        <div className="horizontal-label">
-          <Form.Label column>Цена:</Form.Label>
-        </div>
-        <Form.Control type="text" className="mb-3" placeholder="Цена товара" />
-      </Form.Group>
-      <Form.Group>
-        <Form.Label column xs={1}>
-          Бренд:
-        </Form.Label>
-        <Form.Select defaultValue="Choose..." className="mb-3">
-          <option>Выберите</option>
-          <option>...</option>
-          <option>...</option>
-          <option>...</option>
-        </Form.Select>
-      </Form.Group>
-
-      <Form.Group>
-        <Form.Label column xs={1}>
-          Картинка:
+        <Form.Label column xs={3} className="mt-3">
+          Картинка категории:
         </Form.Label>
         <Col>
           <Form.Group controlId="formFile" className="mb-3">
@@ -48,39 +40,20 @@ const CategoryListForm = () => {
           </Form.Group>
         </Col>
       </Form.Group>
-      <Row>
-        <Form.Label column xs={1}>
-          Категория
-        </Form.Label>
-        <Form.Select defaultValue="Choose..." className="mb-3">
-          <option>Выберите категорию</option>
-          <option>...</option>
-          <option>...</option>
-          <option>...</option>
-        </Form.Select>
-        <Form.Select defaultValue="Choose..." className="mb-3">
-          <option>Выберите подкатегорию</option>
-          <option>...</option>
-          <option>...</option>
-          <option>...</option>
-        </Form.Select>
-      </Row>
       <Form.Group>
-        <Form.Label column xs={1}>
-          Характеристики:
-        </Form.Label>
         <Col>
-          <Form.Select defaultValue="Choose..." className="mb-3">
-            <option>Выберите</option>
-            <option>...</option>
-            <option>...</option>
-            <option>...</option>
-          </Form.Select>
+          <Form.Label column xs={2} className="mt-2">
+            Уровень в списке:
+          </Form.Label>
+            <Button className="btn-direction _right">&#9650;</Button>
+            <Button className="btn-direction">&#9660;</Button>
         </Col>
       </Form.Group>
-      <Form.Group className="mb-13" id="formGridCheckbox">
-        <Form.Check type="checkbox" label="Публикация товара" />
-      </Form.Group>
+        <Col>
+
+        </Col>
+
+
       <Button variant="primary" type="submit" className="mt-4">
         Сохранить
       </Button>
