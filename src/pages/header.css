@@ -1,26 +1,80 @@
-.ellipse {
-  width: 58px;
-  height: 58px;
-  background: #ffffff;
-  border: 1px solid #707070;
-  border-radius: 50%;
-  opacity: 1;
-  margin: 26px 0 0 1450px;
+.list-body {
+  width: 408px;
+  height: 692px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  background-color: #F2F2F2;
 }
 
-.ellipse:after {
-  content: " ";
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background-color: orange;
-  border: 2px solid orange;
-  z-index: 2;
-  position: absolute;
+ul {
+  margin: 10px 0 10px 0;
+}
+li {
+  width: 100%;
+  list-style: none;
+  margin: 5px 0 0 50px;
 }
 
-.mail {
-  width: 24.71px;
-  height: 21.42px;
-  margin: 19px 2px 0 16px;
+.article-link-wrap:active {
+  color: white;
+}
+
+li:hover {
+  background-color: #bac3f3;
+  color: black;
+}
+
+.article-link:hover {
+  background-color: #b1baee;
+  color: black;
+}
+
+.link-string:active {
+  background-color: #1332AF;
+  color: white;
+}
+
+.edit-category {
+  margin-bottom: 15px;
+}
+
+.link-string a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-list-wrapper {
+  flex: 1;
+  margin: 30px;
+}
+
+.warning-text {
+  margin-top: 5px;
+}
+
+.mt-2 {
+  margin-right: 10px;
+}
+
+.main {
+  margin-left: 30px;
+}
+
+.btn-direction {
+  width: 90px;
+  height: 36px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 18px;
+  border: 2px solid #b4afaf;
+}
+
+._right {
+  margin-right:10px;
 }
