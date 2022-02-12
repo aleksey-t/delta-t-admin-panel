@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Wester",
+    "image": "https://delta-t.online/Admin/GetImageFromFirmTable?firmName=Wester"
+  },
+  {
+    "name": "Vaillant",
+    "image": "https://delta-t.online/Admin/GetImageFromFirmTable?firmName=Vaillant"
+  },
+  {
+    "name": "Baxi",
+    "image": "https://delta-t.online/Admin/GetImageFromFirmTable?firmName=Baxi"
+  },
+  {
+    "name": "Ariston",
+    "image": "https://delta-t.online/Admin/GetImageFromFirmTable?firmName=Ariston"
+  }
+]
