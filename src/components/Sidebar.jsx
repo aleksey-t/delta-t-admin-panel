@@ -1,25 +1,30 @@
-import "./sidebar.css";
+import "./css/sidebar.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import { Nav, Col } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import { faStore, faPlus } from "@fortawesome/free-solid-svg-icons";
 import SidebarLink from "./SidebarLink";
+import SidebarSubLink from "./SidebarSubLink";
+import PropTypes from "prop-types";
 
 const Sidebar = () => {
   return (
-    <Col xs lg="2" className="sidebar">
-      <Nav defaultActiveKey="/home" className="flex-column">
-        {/*TODO: использовать SidebarLink для ссылок*/}
+    <div className="sidebar">
+      <Nav className="flex-column">
         <SidebarLink icon={faStore} linkText="Товары" to="/products" />
-        <SidebarLink icon={faPlus} linkText="Добавить" to="/new-product" />
-
+        <SidebarSubLink icon={faPlus} linkText="Добавить" to="/new-product" />
         <Link to="/products/:productId">Отдельный продукт</Link>
         <Link to="/new-category">Добавление категории</Link>
         <Link to="/category-list">Список категорий</Link>
         <Link to="/common-information">Основная информация</Link>
       </Nav>
-    </Col>
+    </div>
   );
+};
+
+Sidebar.propTypes = {
+  showSidebar: PropTypes.bool,
+  setShowSidebar: PropTypes.func,
 };
 
 export default Sidebar;

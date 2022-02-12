@@ -1,4 +1,4 @@
-import EmailIcon from "./icons/EmailIcon";
+import EmailIcon from "../icons/EmailIcon";
 import React from "react";
 import PropTypes from "prop-types";
 

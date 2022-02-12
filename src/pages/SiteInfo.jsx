@@ -1,6 +1,6 @@
 import React from "react";
 
-const SiteInfo = ({}) => {
+const SiteInfo = () => {
   return (
     <div className="page">
       <h1>Редактирование основной информации</h1>

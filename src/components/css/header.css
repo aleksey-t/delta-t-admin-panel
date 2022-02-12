@@ -5,6 +5,7 @@
   justify-content: flex-end;
   border: 1px solid #707070;
   padding: 0 10px;
+  margin-bottom: 2rem;
 }
 
 .ellipse {
@@ -41,4 +42,7 @@
 .send {
   width: 102px;
   height: 31px;
+}
+.burger-nav-button {
+  margin: 0 0 2rem -1rem;
 }
