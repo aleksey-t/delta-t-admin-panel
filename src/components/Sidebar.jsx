@@ -17,6 +17,7 @@ const Sidebar = () => {
         <Link to="/new-category">Добавление категории</Link>
         <Link to="/category-list">Список категорий</Link>
         <Link to="/common-information">Основная информация</Link>
+        <Link to="/all-articles">Все товары</Link>
       </Nav>
     </div>
   );
