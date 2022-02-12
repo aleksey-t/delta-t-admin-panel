@@ -3,7 +3,7 @@
   height: 692px;
   overflow-y: scroll;
   overflow-x: scroll;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 ul {
@@ -30,7 +30,7 @@ li:hover {
 }
 
 .link-string:active {
-  background-color: #1332AF;
+  background-color: #1332af;
   color: white;
 }
 
@@ -76,5 +76,5 @@ li:hover {
 }
 
 ._right {
-  margin-right:10px;
+  margin-right: 10px;
 }

@@ -5,22 +5,18 @@ const AddProductForm = () => {
   return (
     <Form>
       <Form.Group>
-          <Col xs={1}>
-        <Form.Label column>
-          Название
-        </Form.Label>
-          </Col>
+        <Col xs={1}>
+          <Form.Label column>Название</Form.Label>
+        </Col>
         <Col xs={6}>
           <Form.Control type="text" placeholder="Название товара" />
         </Col>
       </Form.Group>
 
       <Form.Group>
-          <div className="horizontal-label">
-        <Form.Label column>
-          Цена:
-        </Form.Label>
-          </div>
+        <div className="horizontal-label">
+          <Form.Label column>Цена:</Form.Label>
+        </div>
         <Form.Control type="text" className="mb-3" placeholder="Цена товара" />
       </Form.Group>
       <Form.Group>

@@ -22,7 +22,7 @@ ReactDOM.render(
         <Route path="login" element={<Login />} />
         <Route path="products/:productId" element={<SingleProduct />} />
         <Route path="new-product" element={<NewProduct />} />
-          <Route path="new-category" element={<AddCategoryPage />} />
+        <Route path="new-category" element={<AddCategoryPage />} />
         <Route path="category-list" element={<CategoryListPage />} />
         <Route path="common-information" element={<CommonInfoPage />} />
       </Routes>

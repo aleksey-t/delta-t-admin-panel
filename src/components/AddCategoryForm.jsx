@@ -13,20 +13,17 @@ const AddCategoryForm = () => {
         </Col>
       </Form.Group>
 
-
-        <Form.Group>
-            <Col xs={1} className="mt-2">
-                <Form.Label column>Ссылка:</Form.Label>
-            </Col>
-            <Col xs={3}>
-                <div id="input-category">/generated-category-link</div>
-                <Button variant="secondary" type="submit" className="mt-2">
-                    Изменить
-                </Button>
-            </Col>
-
-        </Form.Group>
-
+      <Form.Group>
+        <Col xs={1} className="mt-2">
+          <Form.Label column>Ссылка:</Form.Label>
+        </Col>
+        <Col xs={3}>
+          <div id="input-category">/generated-category-link</div>
+          <Button variant="secondary" type="submit" className="mt-2">
+            Изменить
+          </Button>
+        </Col>
+      </Form.Group>
 
       <Form.Group>
         <Form.Label column xs={3} className="mt-3">

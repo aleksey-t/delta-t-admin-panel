@@ -45,14 +45,11 @@ const CategoryListForm = () => {
           <Form.Label column xs={2} className="mt-2">
             Уровень в списке:
           </Form.Label>
-            <Button className="btn-direction _right">&#9650;</Button>
-            <Button className="btn-direction">&#9660;</Button>
+          <Button className="btn-direction _right">&#9650;</Button>
+          <Button className="btn-direction">&#9660;</Button>
         </Col>
       </Form.Group>
-        <Col>
-
-        </Col>
-
+      <Col></Col>
 
       <Button variant="primary" type="submit" className="mt-4">
         Сохранить
