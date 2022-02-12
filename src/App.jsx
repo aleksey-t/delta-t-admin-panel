@@ -15,6 +15,7 @@ import Dashboard from "./pages/Dashboard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBurger } from "@fortawesome/free-solid-svg-icons";
 import BrandsPage from "./pages/BrandsPage";
+import AllArticlesPage from "./pages/AllArticlesPage";
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(true);
@@ -63,6 +64,7 @@ function App() {
               <Route path="common-information" element={<CommonInfoPage />} />
               <Route path="brands" element={<BrandsPage />} />
               <Route path="brands/all" element={<BrandsPage />} />
+              <Route path="all-articles" element={<AllArticlesPage />} />
             </Routes>
           </Col>
         </Row>
