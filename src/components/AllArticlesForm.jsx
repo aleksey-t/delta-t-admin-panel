@@ -3,7 +3,7 @@ import { Table } from "react-bootstrap";
 
 const AllArticlesForm = () => {
   return (
-    <div>
+    <>
       <Table striped bordered hover>
         <thead>
           <tr>
@@ -42,7 +42,7 @@ const AllArticlesForm = () => {
           </tr>
         </tbody>
       </Table>
-    </div>
+    </>
   );
 };
 
