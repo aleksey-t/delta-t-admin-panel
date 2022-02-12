@@ -14,6 +14,7 @@ import CommonInfoPage from "./pages/CommonInfoPage";
 import Dashboard from "./pages/Dashboard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBurger } from "@fortawesome/free-solid-svg-icons";
+import ContactsPage from "./pages/ContactsPage";
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(true);
@@ -60,6 +61,7 @@ function App() {
               <Route path="new-category" element={<AddCategoryPage />} />
               <Route path="category-list" element={<CategoryListPage />} />
               <Route path="common-information" element={<CommonInfoPage />} />
+              <Route path="contacts" element={<ContactsPage />} />
             </Routes>
           </Col>
         </Row>
