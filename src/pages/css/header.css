@@ -78,3 +78,20 @@ li:hover {
 ._right {
   margin-right: 10px;
 }
+
+.lines {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 30px 0 5px 0;
+}
+.lines textarea {
+  width: 380px;
+  height: 48px;
+  margin-left: 20px;
+  resize: none;
+}
+
+.save {
+  margin: 45px 0 0 35px;
+}

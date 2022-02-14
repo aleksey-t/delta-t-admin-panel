@@ -19,6 +19,7 @@ const Sidebar = () => {
         <Link to="/brands/all">Бренды</Link>
         <Link to="/common-information">Основная информация</Link>
         <Link to="/all-articles">Все товары</Link>
+        <Link to="/steps-editing">Шаги (редактирование)</Link>
       </Nav>
     </div>
   );

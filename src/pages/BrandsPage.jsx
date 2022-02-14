@@ -1,6 +1,8 @@
 import React from "react";
 import data from "../fake-data/brands.json";
 
+
+
 const BrandsPage = () => {
   return (
     <>
@@ -10,9 +12,9 @@ const BrandsPage = () => {
       {data.map(function (currentArrayElement, currentIndex) {
         return (
           <div key={currentIndex}>
-            <h4>{currentArrayElement.name}</h4>
+           <h4><a href={currentArrayElement.name}>{currentArrayElement.name}</a></h4>
             <div className="brand-image">
-              <img src={currentArrayElement.image} alt="" />
+               <img src={currentArrayElement.image} alt=""/>
             </div>
           </div>
         );
